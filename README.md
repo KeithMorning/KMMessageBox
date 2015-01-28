@@ -1,7 +1,7 @@
 # KMMessageBox
 a small message box like weekr's, support close the keyboard,self size automatically change. The interface is written by block. 
 #how to use
-copy the KMCompent folder to your project,import the file `KMMessagView.h`
+copy the KMCompent and images folder to your project,import the file `KMMessagView.h`
 
 ```objc
 CGSize size=[UIScreen mainScreen].bounds.size;
