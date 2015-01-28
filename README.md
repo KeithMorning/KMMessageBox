@@ -3,7 +3,7 @@ a small message box like weekr's, support close the keyboard,self size automatic
 #how to use
 copy the KMCompent folder to your project,import the file `KMMessagView.h`
 
-```
+```objc
 CGSize size=[UIScreen mainScreen].bounds.size;
 
 CGRect boxFrame=CGRectMake(0,size.height, size.width, 45);
