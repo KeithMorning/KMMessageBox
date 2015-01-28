@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3DB3BEC1A7885080041A780 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3BEB1A7885080041A780 /* main.m */; };
+		D3DB3BEF1A7885080041A780 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3BEE1A7885080041A780 /* AppDelegate.m */; };
+		D3DB3BF21A7885080041A780 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3BF11A7885080041A780 /* ViewController.m */; };
+		D3DB3BF51A7885080041A780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DB3BF31A7885080041A780 /* Main.storyboard */; };
+		D3DB3BF71A7885080041A780 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DB3BF61A7885080041A780 /* Images.xcassets */; };
+		D3DB3BFA1A7885080041A780 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3DB3BF81A7885080041A780 /* LaunchScreen.xib */; };
+		D3DB3C061A7885090041A780 /* KMMessageBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3C051A7885090041A780 /* KMMessageBoxTests.m */; };
+		D3DB3C121A7885B80041A780 /* KMPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3C111A7885B80041A780 /* KMPlaceholderTextView.m */; };
+		D3DB3C171A7886180041A780 /* send_arrow_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DB3C141A7886180041A780 /* send_arrow_left@2x.png */; };
+		D3DB3C181A7886180041A780 /* send_blue_arrow_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DB3C151A7886180041A780 /* send_blue_arrow_left@2x.png */; };
+		D3DB3C191A7886180041A780 /* subline.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DB3C161A7886180041A780 /* subline.png */; };
+		D3DB3C1C1A788BAE0041A780 /* KMMessagView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3C1B1A788BAE0041A780 /* KMMessagView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3DB3C001A7885090041A780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DB3BDE1A7885080041A780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DB3BE51A7885080041A780;
+			remoteInfo = KMMessageBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3DB3BE61A7885080041A780 /* KMMessageBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMMessageBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DB3BEA1A7885080041A780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DB3BEB1A7885080041A780 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3DB3BED1A7885080041A780 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3DB3BEE1A7885080041A780 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3DB3BF01A7885080041A780 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3DB3BF11A7885080041A780 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3DB3BF41A7885080041A780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3DB3BF61A7885080041A780 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3DB3BF91A7885080041A780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D3DB3BFF1A7885090041A780 /* KMMessageBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMMessageBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DB3C041A7885090041A780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DB3C051A7885090041A780 /* KMMessageBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMMessageBoxTests.m; sourceTree = "<group>"; };
+		D3DB3C101A7885B80041A780 /* KMPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPlaceholderTextView.h; sourceTree = "<group>"; };
+		D3DB3C111A7885B80041A780 /* KMPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPlaceholderTextView.m; sourceTree = "<group>"; };
+		D3DB3C141A7886180041A780 /* send_arrow_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send_arrow_left@2x.png"; sourceTree = "<group>"; };
+		D3DB3C151A7886180041A780 /* send_blue_arrow_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send_blue_arrow_left@2x.png"; sourceTree = "<group>"; };
+		D3DB3C161A7886180041A780 /* subline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subline.png; sourceTree = "<group>"; };
+		D3DB3C1A1A788BAE0041A780 /* KMMessagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMMessagView.h; sourceTree = "<group>"; };
+		D3DB3C1B1A788BAE0041A780 /* KMMessagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMMessagView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3DB3BE31A7885080041A780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DB3BFC1A7885090041A780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3DB3BDD1A7885080041A780 = {
+			isa = PBXGroup;
+			children = (
+				D3DB3BE81A7885080041A780 /* KMMessageBox */,
+				D3DB3C021A7885090041A780 /* KMMessageBoxTests */,
+				D3DB3BE71A7885080041A780 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DB3BE71A7885080041A780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3BE61A7885080041A780 /* KMMessageBox.app */,
+				D3DB3BFF1A7885090041A780 /* KMMessageBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DB3BE81A7885080041A780 /* KMMessageBox */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3C131A7886180041A780 /* images */,
+				D3DB3C0F1A7885740041A780 /* KMCompent */,
+				D3DB3BED1A7885080041A780 /* AppDelegate.h */,
+				D3DB3BEE1A7885080041A780 /* AppDelegate.m */,
+				D3DB3BF01A7885080041A780 /* ViewController.h */,
+				D3DB3BF11A7885080041A780 /* ViewController.m */,
+				D3DB3BF31A7885080041A780 /* Main.storyboard */,
+				D3DB3BF61A7885080041A780 /* Images.xcassets */,
+				D3DB3BF81A7885080041A780 /* LaunchScreen.xib */,
+				D3DB3BE91A7885080041A780 /* Supporting Files */,
+			);
+			path = KMMessageBox;
+			sourceTree = "<group>";
+		};
+		D3DB3BE91A7885080041A780 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3BEA1A7885080041A780 /* Info.plist */,
+				D3DB3BEB1A7885080041A780 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3DB3C021A7885090041A780 /* KMMessageBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3C051A7885090041A780 /* KMMessageBoxTests.m */,
+				D3DB3C031A7885090041A780 /* Supporting Files */,
+			);
+			path = KMMessageBoxTests;
+			sourceTree = "<group>";
+		};
+		D3DB3C031A7885090041A780 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3C041A7885090041A780 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3DB3C0F1A7885740041A780 /* KMCompent */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3C101A7885B80041A780 /* KMPlaceholderTextView.h */,
+				D3DB3C111A7885B80041A780 /* KMPlaceholderTextView.m */,
+				D3DB3C1A1A788BAE0041A780 /* KMMessagView.h */,
+				D3DB3C1B1A788BAE0041A780 /* KMMessagView.m */,
+			);
+			path = KMCompent;
+			sourceTree = "<group>";
+		};
+		D3DB3C131A7886180041A780 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3C141A7886180041A780 /* send_arrow_left@2x.png */,
+				D3DB3C151A7886180041A780 /* send_blue_arrow_left@2x.png */,
+				D3DB3C161A7886180041A780 /* subline.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3DB3BE51A7885080041A780 /* KMMessageBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DB3C091A7885090041A780 /* Build configuration list for PBXNativeTarget "KMMessageBox" */;
+			buildPhases = (
+				D3DB3BE21A7885080041A780 /* Sources */,
+				D3DB3BE31A7885080041A780 /* Frameworks */,
+				D3DB3BE41A7885080041A780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMMessageBox;
+			productName = KMMessageBox;
+			productReference = D3DB3BE61A7885080041A780 /* KMMessageBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3DB3BFE1A7885090041A780 /* KMMessageBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DB3C0C1A7885090041A780 /* Build configuration list for PBXNativeTarget "KMMessageBoxTests" */;
+			buildPhases = (
+				D3DB3BFB1A7885090041A780 /* Sources */,
+				D3DB3BFC1A7885090041A780 /* Frameworks */,
+				D3DB3BFD1A7885090041A780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DB3C011A7885090041A780 /* PBXTargetDependency */,
+			);
+			name = KMMessageBoxTests;
+			productName = KMMessageBoxTests;
+			productReference = D3DB3BFF1A7885090041A780 /* KMMessageBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3DB3BDE1A7885080041A780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = KeithMorning;
+				TargetAttributes = {
+					D3DB3BE51A7885080041A780 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D3DB3BFE1A7885090041A780 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D3DB3BE51A7885080041A780;
+					};
+				};
+			};
+			buildConfigurationList = D3DB3BE11A7885080041A780 /* Build configuration list for PBXProject "KMMessageBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3DB3BDD1A7885080041A780;
+			productRefGroup = D3DB3BE71A7885080041A780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3DB3BE51A7885080041A780 /* KMMessageBox */,
+				D3DB3BFE1A7885090041A780 /* KMMessageBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3DB3BE41A7885080041A780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DB3C191A7886180041A780 /* subline.png in Resources */,
+				D3DB3BF51A7885080041A780 /* Main.storyboard in Resources */,
+				D3DB3C171A7886180041A780 /* send_arrow_left@2x.png in Resources */,
+				D3DB3C181A7886180041A780 /* send_blue_arrow_left@2x.png in Resources */,
+				D3DB3BFA1A7885080041A780 /* LaunchScreen.xib in Resources */,
+				D3DB3BF71A7885080041A780 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DB3BFD1A7885090041A780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3DB3BE21A7885080041A780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DB3BF21A7885080041A780 /* ViewController.m in Sources */,
+				D3DB3C121A7885B80041A780 /* KMPlaceholderTextView.m in Sources */,
+				D3DB3BEF1A7885080041A780 /* AppDelegate.m in Sources */,
+				D3DB3C1C1A788BAE0041A780 /* KMMessagView.m in Sources */,
+				D3DB3BEC1A7885080041A780 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DB3BFB1A7885090041A780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DB3C061A7885090041A780 /* KMMessageBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3DB3C011A7885090041A780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DB3BE51A7885080041A780 /* KMMessageBox */;
+			targetProxy = D3DB3C001A7885090041A780 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3DB3BF31A7885080041A780 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DB3BF41A7885080041A780 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3DB3BF81A7885080041A780 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DB3BF91A7885080041A780 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3DB3C071A7885090041A780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3DB3C081A7885090041A780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3DB3C0A1A7885090041A780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KMMessageBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3DB3C0B1A7885090041A780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KMMessageBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3DB3C0D1A7885090041A780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KMMessageBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMMessageBox.app/KMMessageBox";
+			};
+			name = Debug;
+		};
+		D3DB3C0E1A7885090041A780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KMMessageBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMMessageBox.app/KMMessageBox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3DB3BE11A7885080041A780 /* Build configuration list for PBXProject "KMMessageBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DB3C071A7885090041A780 /* Debug */,
+				D3DB3C081A7885090041A780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DB3C091A7885090041A780 /* Build configuration list for PBXNativeTarget "KMMessageBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DB3C0A1A7885090041A780 /* Debug */,
+				D3DB3C0B1A7885090041A780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3DB3C0C1A7885090041A780 /* Build configuration list for PBXNativeTarget "KMMessageBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DB3C0D1A7885090041A780 /* Debug */,
+				D3DB3C0E1A7885090041A780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3DB3BDE1A7885080041A780 /* Project object */;
+}
