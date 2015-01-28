@@ -93,8 +93,10 @@
     if (_Inputview.Textnil) {
         return;
     }else{
+        if(self.sendText){
         self.sendText(_Inputview.text);
         _Inputview.text=@"";
+        }
     }
 }
 #pragma mark 处理键盘显示通知
@@ -118,7 +120,6 @@
 -(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
     if ([text isEqual:@"\n"]) {
          [self sendInputText];
-        
         [textView resignFirstResponder];
         return NO;
     }

@@ -52,7 +52,10 @@
         view.frame=frame;
     }
     [self addSubview:view];
-    self.viewSize(size);
+    if (self.viewSize) {
+         self.viewSize(size);
+    }
+   
 }
 #pragma mark 隐藏或显示placeText
 -(void)TextChange:(NSNotification *)notification{
