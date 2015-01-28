@@ -19,6 +19,8 @@
 -(instancetype)initWithFrame:(CGRect)frame PlaceText:(NSString *)placeText PlaceColor:(UIColor *)placeColor{
     self=[super initWithFrame:frame];
     if (self) {
+        //添加顶分割线
+       [self addSubview:[self addUpline]];
         //添加输入框
         CGRect textFrame=CGRectMake(10, 6,self.frame.size.width-K_right_padding, 33);
         _Inputview=[[KMPlaceholderTextView alloc]initWithFrame:textFrame PlaceText:placeText PlaceColor:placeColor];
@@ -40,9 +42,28 @@
         [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillChangeFrameNotification object:nil];
         maxy=[UIScreen mainScreen].bounds.size.height;
         self.frame=CGRectMake(0, self.frame.origin.y-self.frame.size.height, self.frame.size.width, self.frame.size.height);//在底部显示
+
     }
     
     return self;
+}
+
+#pragma mark 添加上边line
+-(UIView *)addUpline{
+    CGRect frame=CGRectMake(10, 0, CGRectGetWidth([UIScreen mainScreen].bounds)-20, 1);
+    UIView *line=[[UIView alloc]initWithFrame:frame];
+    [line setBackgroundColor:[UIColor lightGrayColor]];
+    return line;
+}
+#pragma mark 根据输入框高度调整sendbutton位置
+-(void)resetSendButtonPostion:(CGSize)size{
+    CGFloat height=size.height/2;
+    CGPoint center=_sendButton.center;
+    center.y=height+6;
+    [UIView animateWithDuration:1.0f animations:^{
+          _sendButton.center=center;
+    }];
+  
 }
 #pragma mark 处理来自输入框的大小
 -(void)TextViewDidChange:(CGSize)size{
@@ -52,8 +73,11 @@
     
     if (_Inputview.Textnil) {
         [_sendButton setBackgroundImage:[UIImage imageNamed:@"send_arrow_left@2x.png"] forState:UIControlStateNormal];
+          CGRect buttonFram=CGRectMake(self.frame.size.width-K_right_padding+10, 6, 33, 33);
+        _sendButton.frame=buttonFram;
     }else{
         [_sendButton setBackgroundImage:[UIImage imageNamed:@"send_blue_arrow_left@2x.png"] forState:UIControlStateNormal];
+        [self resetSendButtonPostion:size];
     }
 }
 #pragma mark sendbutton发送
@@ -63,10 +87,14 @@
     }
 }
 -(void)buttonClick{
+    [self sendInputText];
+}
+-(void)sendInputText{
     if (_Inputview.Textnil) {
         return;
     }else{
         self.sendText(_Inputview.text);
+        _Inputview.text=@"";
     }
 }
 #pragma mark 处理键盘显示通知
@@ -89,6 +117,8 @@
 #pragma mark 处理退出键盘
 -(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
     if ([text isEqual:@"\n"]) {
+         [self sendInputText];
+        
         [textView resignFirstResponder];
         return NO;
     }
